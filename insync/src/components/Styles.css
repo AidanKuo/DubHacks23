@@ -2,6 +2,7 @@
     color: #ffff;
     width: auto;
     height: 1700px;
+    font-family: 'Montserrat';
  } 
   .header-text {
     font-family: 'Montserrat';
@@ -11,6 +12,7 @@
   
   .desc-container {
     position: absolute;
+    font-family: 'Montserrat';
     /*border: 2px solid #b1e612;*/
     min-height: 500px;
     min-width: 625px;
@@ -22,6 +24,7 @@
   
   .graphic-container {
     position: absolute;
+    font-family: 'Montserrat';
     /*border: 2px solid #3912e6;*/
     margin-top: 325px;
     margin-left: 300px;
@@ -30,6 +33,7 @@
   
   .figma-container1 {
     position: absolute;
+    font-family: 'Montserrat';
     border: 2px solid #008080;
     border-radius: 10px;
     margin-top: 850px;
@@ -39,6 +43,7 @@
 
   .figma-container2 {
     position: absolute;
+    font-family: 'Montserrat';
     border: 2px solid #008080;
     border-radius: 10px;
     margin-top: 850px;
@@ -48,6 +53,7 @@
 
   .figma-container3 {
     position: absolute;
+    font-family: 'Montserrat';
     border: 2px solid #008080;
     border-radius: 10px;
     margin-top: 850px;
@@ -57,6 +63,7 @@
 
   .figma-container4 {
     position: absolute;
+    font-family: 'Montserrat';
     margin-top: 900px;
     margin-right: 100px;
     margin-left: 1400px;
@@ -75,23 +82,28 @@
   .left-text {
     font-size: 100px !important;
     font-weight: bold;
+    font-family: 'Montserrat';
   }
 
   .right-text {
+    font-family: 'Montserrat';
     font-weight: bold !important;
   }
 
   .margin-right {
     margin-right: 50px;
+    font-family: 'Montserrat';
   }
 
   .margin-right-about {
+    font-family: 'Montserrat';
     margin-right: 50px;
     font-weight: bold !important;
   }
 
 
   .margin {
+    font-family: 'Montserrat';
     margin-left: 45px;
   }
 
@@ -109,16 +121,19 @@
   }
 
   .pic {
+    font-family: 'Montserrat';
     border-radius: 10px;
   }
 
   .figma-container-text1 {
+    font-family: 'Montserrat';
     position: absolute;
     margin-top: 720px;
     margin-left: 180px;
     padding: 20px;
   }
   .figma-container-text2 {
+    font-family: 'Montserrat';
     position: absolute;
     margin-top: 720px;
     margin-left: 580px;
@@ -135,6 +150,7 @@
     font-weight: bold !important;
     font-size: 30px;
     text-align: center;
+    font-family: 'Montserrat';
   }
 
   .regular {
@@ -144,16 +160,12 @@
   }
 
   .center-box {
+    font-family: 'Montserrat';
     text-align: center;
     width: '1700';
   }
   
   .center {
-    display: inline-block; /* This is required for centering with text-align */
-  }
-
-  @font-face {
     font-family: 'Montserrat';
-    src: url('https://fonts.googleapis.com/css?family=Montserrat') format('ttf');
-    /* You can specify multiple font formats for compatibility */
+    display: inline-block; /* This is required for centering with text-align */
   }
