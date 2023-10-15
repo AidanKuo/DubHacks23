@@ -151,3 +151,9 @@
   .center {
     display: inline-block; /* This is required for centering with text-align */
   }
+
+  @font-face {
+    font-family: 'Montserrat';
+    src: url('https://fonts.googleapis.com/css?family=Montserrat') format('ttf');
+    /* You can specify multiple font formats for compatibility */
+  }
