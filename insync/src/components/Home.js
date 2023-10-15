@@ -20,20 +20,18 @@ function Home() {
               alt="bruh"
             />
           </Navbar.Brand>
+          <Navbar.Brand className='left-text'as={Link} to="/DubHacks23">InSync</Navbar.Brand>
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
-                <Nav className='left-text'>
-                <Nav.Link as={Link} to="/DubHacks23">InSync</Nav.Link>
-                </Nav>
               <Nav className="ms-auto">
-              <Nav.Link as={Link} to="/DubHacks23">Home</Nav.Link> 
-                <Nav.Link className='right-text' as={Link} to="/about">About</Nav.Link>
+              <Nav.Link as={Link} to="/DubHacks23" className='right-text'>Home</Nav.Link> 
+                <Nav.Link as={Link} to="/about" className='margin-right'>About</Nav.Link>
               </Nav>
             </Navbar.Collapse>
         </Navbar>
         <div className='graphic-container'>
             <p className='desc-title-text'>InSync</p>
-            <p className='desc-text'>talk to fweiedns</p>
+            <p className='desc-text'>Share with care.</p>
         </div>
         <div className='desc-container'>
             <img
@@ -41,8 +39,43 @@ function Home() {
              width='700'
              /> 
         </div>
-        <div className='figma-container'>
+        <div className='figma-container-text1'>
+            <p className='bold'>Log your Day</p>
+            <p className='regular'>Set reminders<br/>and share how you feel</p>
+        </div>
+        <div className='figma-container-text2'>
+        <p className='bold'>Create a Calendar</p>
+        <p className='regular'>Visualize your day and track your<br/>mental and physical health</p>
+        </div>
+        <div className='figma-container-text3'>
+        <p className='bold'>Connect</p>
+        <p className='regular'>Do daily activities with your<br/>friends that focus on wellness</p>
+        </div>
+        <div className='figma-container1'>
+        <img className='pic'   
+            width='250'
+            height='535'
+             src='https://cdn.discordapp.com/attachments/1162859852440289421/1163031329869402122/circle_page.png?ex=653e1855&is=652ba355&hm=ad6069412f2c22997422e2cac39ab680c37490eaa214d1ded148497bcc9d3285&'
+             />
+        </div>
+        <div className='figma-container2'>
+             <img className='pic'
+             width='250'
+             height='535'
+             src='https://cdn.discordapp.com/attachments/1162859852440289421/1163031386744160346/Calendar.png?ex=653e1862&is=652ba362&hm=3d39ee38e4aa12c1973d9c14fb9dd4c1400176625fb3a18b758bf96f4cc5923c&'
+             /> 
+        </div>
+        <div className='figma-container3'>
+             <img className='pic'
+             width='250'
+             height='535'
+             src='https://cdn.discordapp.com/attachments/1162859852440289421/1163047639282090064/activity_page_pop_up.png?ex=653e2785&is=652bb285&hm=a931ae87cf5924be008f0a174d3b7395dae035247b20a2b272899941baa29a2e&'
+             /> 
 
+        </div>
+        <div className='figma-container4'>
+        <p className='bold'>InSync will hold you accountable</p>
+        <p className='regular'>When it gets hard to tell your friends how you're feeling, InSync will give you a platform to share your daily thoughts.</p>
         </div>
         </div>
       );

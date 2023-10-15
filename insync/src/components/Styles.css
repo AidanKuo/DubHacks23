@@ -1,7 +1,7 @@
  body {
     color: #ffff;
     width: auto;
-    height: 100vh;
+    height: 1700px;
  } 
   .header-text {
     font-family: 'Montserrat';
@@ -14,7 +14,7 @@
     /*border: 2px solid #b1e612;*/
     min-height: 500px;
     min-width: 625px;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-right: 100px;
     padding: 20px;
     right: 0;
@@ -23,19 +23,43 @@
   .graphic-container {
     position: absolute;
     /*border: 2px solid #3912e6;*/
-    margin-top: 375px;
+    margin-top: 325px;
     margin-left: 300px;
     padding: 20px;
   }
   
-  .figma-container {
-    border: 2px solid #df00ba;
-    min-height: 500px;
-    min-width: 1376px;
+  .figma-container1 {
+    position: absolute;
+    border: 2px solid #008080;
+    border-radius: 10px;
     margin-top: 850px;
-    margin-left: 50px;
-    margin-right: 50px;
-    padding: 20px;
+    margin-right: 600px;
+    margin-left: 170px;
+  }
+
+  .figma-container2 {
+    position: absolute;
+    border: 2px solid #008080;
+    border-radius: 10px;
+    margin-top: 850px;
+    margin-right: 600px;
+    margin-left: 600px;
+  }
+
+  .figma-container3 {
+    position: absolute;
+    border: 2px solid #008080;
+    border-radius: 10px;
+    margin-top: 850px;
+    margin-right: 600px;
+    margin-left: 1056px;
+  }
+
+  .figma-container4 {
+    position: absolute;
+    margin-top: 900px;
+    margin-right: 100px;
+    margin-left: 1400px;
   }
 
   .navbar {
@@ -49,15 +73,21 @@
   }
 
   .left-text {
-    font-size: 100px;
+    font-size: 100px !important;
     font-weight: bold;
   }
 
   .right-text {
-    font-size: 40px;
-    font-weight: bold;
+    font-weight: bold !important;
+  }
+
+  .margin-right {
     margin-right: 50px;
-    color: #ffffff;
+  }
+
+  .margin-right-about {
+    margin-right: 50px;
+    font-weight: bold !important;
   }
 
 
@@ -76,4 +106,48 @@
     font-family: 'Montserrat';
     color: black;
     font-size: 30px;
+  }
+
+  .pic {
+    border-radius: 10px;
+  }
+
+  .figma-container-text1 {
+    position: absolute;
+    margin-top: 720px;
+    margin-left: 180px;
+    padding: 20px;
+  }
+  .figma-container-text2 {
+    position: absolute;
+    margin-top: 720px;
+    margin-left: 580px;
+    padding: 20px;
+  }
+  .figma-container-text3 {
+    position: absolute;
+    font-family: 'Montserrat';
+    margin-top: 720px;
+    margin-left: 1050px;
+    padding: 20px;
+  }
+  .bold {
+    font-weight: bold !important;
+    font-size: 30px;
+    text-align: center;
+  }
+
+  .regular {
+    font-family: 'Montserrat';
+    font-size: 15px;
+    text-align: center;
+  }
+
+  .center-box {
+    text-align: center;
+    width: '1700';
+  }
+  
+  .center {
+    display: inline-block; /* This is required for centering with text-align */
   }
