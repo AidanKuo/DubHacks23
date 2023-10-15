@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/DubHacks23/static/css/main.68bf8b28.css",
+    "main.js": "/DubHacks23/static/js/main.591f44af.js",
+    "static/js/787.66caa755.chunk.js": "/DubHacks23/static/js/787.66caa755.chunk.js",
+    "index.html": "/DubHacks23/index.html",
+    "main.68bf8b28.css.map": "/DubHacks23/static/css/main.68bf8b28.css.map",
+    "main.591f44af.js.map": "/DubHacks23/static/js/main.591f44af.js.map",
+    "787.66caa755.chunk.js.map": "/DubHacks23/static/js/787.66caa755.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.68bf8b28.css",
+    "static/js/main.591f44af.js"
+  ]
+}
